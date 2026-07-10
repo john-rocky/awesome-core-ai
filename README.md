@@ -49,6 +49,7 @@ growing around it.
 - [Hugging Face: mlboydaisuke](https://huggingface.co/mlboydaisuke) — The zoo's published `.aimodel` bundles.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
+- [virtual6023/coreai-model-zoo](https://github.com/virtual6023/coreai-model-zoo) — Download verified, on-device LLMs converted to Apple Core AI format with included conversion tools and documentation.
 
 ## Conversion
 
@@ -73,6 +74,7 @@ growing around it.
 
 - [The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/) — see [Getting started](#getting-started).
 - WWDC26 sessions — see [Official](#official).
+- [Steven-ZN/Apple-26-ai-skill](https://github.com/Steven-ZN/Apple-26-ai-skill) — Guide coding agents to instrument, trace, compare, and optimize Apple Foundation Models, PCC, Core AI, and multi-session agentic flows using Instruments, str...
 
 ## Contributing
 
