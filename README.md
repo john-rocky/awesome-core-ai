@@ -38,7 +38,7 @@ growing around it.
 
 ## Running models in your app
 
-- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 49-model pinned catalog, nightly on-device gate. SPM.
+- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 49-model pinned catalog, nightly on-device gate. FoundationModels-compatible: catalog models plug into `LanguageModelSession` with tool calling and guided generation. SPM.
 - [rudrankriyam/Core-AI-Framework-Lab](https://github.com/rudrankriyam/Core-AI-Framework-Lab) — Practical lab app: model asset management, specialization states, compute-unit configuration, benchmarking across modalities.
 - [Techopolis/AFM-Studio](https://github.com/Techopolis/AFM-Studio) — Chat app spanning Apple Foundation Models, Private Cloud Compute, and Core AI models behind one provider interface.
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
