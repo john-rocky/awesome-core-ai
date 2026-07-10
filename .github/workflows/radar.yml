@@ -1,0 +1,54 @@
+name: Radar
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # Monday 09:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run radar sweep
+        id: radar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/radar.py --readme README.md --state .github/radar-seen.json --pr-body /tmp/pr-body.md
+          echo "candidates=$(cat /tmp/radar-candidates 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+          echo "readme_changed=$(cat /tmp/radar-readme-changed 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+
+      - name: Record scanned candidates on main
+        if: steps.radar.outputs.candidates != '0'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .github/radar-seen.json
+          git diff --cached --quiet || { git commit -m "Radar: record scanned candidates"; git push; }
+
+      - name: Open proposal PR
+        if: steps.radar.outputs.readme_changed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="radar/$(date -u +%Y%m%d)-${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git add README.md
+          git commit -m "Radar: propose new entries"
+          git push -u origin "$BRANCH"
+          gh pr create --title "Radar: new Core AI ecosystem candidates" \
+            --body-file /tmp/pr-body.md --base main --head "$BRANCH"
+
+      - name: Open issue for body-only candidates
+        if: steps.radar.outputs.candidates != '0' && steps.radar.outputs.readme_changed == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Radar: candidates needing review" --body-file /tmp/pr-body.md

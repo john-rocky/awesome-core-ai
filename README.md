@@ -83,3 +83,7 @@ PRs welcome. Criteria for inclusion:
 - Model entries should state the license and how correctness was verified (e.g. parity vs the upstream reference).
 
 One line per entry, factual tone, no superlatives. Official Apple resources are listed first in each section.
+
+New candidates are also scouted weekly by an automated [radar](.github/workflows/radar.yml)
+(GitHub / Hugging Face search) and land through reviewed pull requests — automation proposes,
+a human merges.
