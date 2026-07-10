@@ -54,8 +54,8 @@ growing around it.
 
 - [apple/coreai-torch](https://github.com/apple/coreai-torch) — The official bring-your-own-PyTorch-model path (see [Official](#official)).
 - [devin-lai/coreai-onnx](https://github.com/devin-lai/coreai-onnx) — Convert ONNX models directly to `.aimodel`.
-- [lucasnewman/mlx2coreai](https://github.com/lucasnewman/mlx2coreai) — Convert MLX models to Core AI.
 - [coreai-model-zoo/conversion](https://github.com/john-rocky/coreai-model-zoo/tree/main/conversion) — Reproducible per-model conversion recipes (pinned base + overlay) behind every zoo bundle, with a `doctor`/`run` CLI.
+- [lucasnewman/mlx2coreai](https://github.com/lucasnewman/mlx2coreai) — Convert MLX models to Core AI.
 - [weichao1221/coreai-models-gui](https://github.com/weichao1221/coreai-models-gui) — SwiftUI GUI for Core AI model export, with ModelScope source support.
 - [NagaYu/silicon-forge](https://github.com/NagaYu/silicon-forge) — Pull, convert, quantize, benchmark, and package open-weight LLMs for Apple silicon (MLX → Core AI).
 
@@ -83,7 +83,9 @@ PRs welcome. Criteria for inclusion:
 - Has a README that lets a stranger use it: what it is, how to run it, what OS/hardware it needs.
 - Model entries should state the license and how correctness was verified (e.g. parity vs the upstream reference).
 
-One line per entry, factual tone, no superlatives. Official Apple resources are listed first in each section.
+One line per entry, factual tone, no superlatives. Within each section: official Apple
+resources first, then entries ordered by how useful and proven they are for that section's
+purpose — never by authorship. New radar finds join at the bottom until they earn a higher spot.
 
 New entries are also scouted and added weekly by an automated [radar](.github/workflows/radar.yml)
 (GitHub / Hugging Face search): confident finds — a strong Core AI signal plus some traction —
