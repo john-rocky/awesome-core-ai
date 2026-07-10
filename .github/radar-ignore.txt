@@ -1,0 +1,2 @@
+# Repos / HF models the radar must never add (one per line, comments allowed).
+virtual6023/coreai-model-zoo  # copies the coreai-model-zoo description verbatim; not an original resource

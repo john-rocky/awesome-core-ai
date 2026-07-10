@@ -84,6 +84,8 @@ PRs welcome. Criteria for inclusion:
 
 One line per entry, factual tone, no superlatives. Official Apple resources are listed first in each section.
 
-New candidates are also scouted weekly by an automated [radar](.github/workflows/radar.yml)
-(GitHub / Hugging Face search) and land through reviewed pull requests — automation proposes,
-a human merges.
+New entries are also scouted and added weekly by an automated [radar](.github/workflows/radar.yml)
+(GitHub / Hugging Face search): confident finds — a strong Core AI signal plus some traction —
+land in the list automatically, and everything else waits in [RADAR.md](RADAR.md) until it
+qualifies. Spotted a bad entry? Open an issue or PR; removals are pinned in
+[`.github/radar-ignore.txt`](.github/radar-ignore.txt) so the radar never re-adds them.
