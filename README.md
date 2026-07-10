@@ -73,6 +73,7 @@ growing around it.
 
 - [The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/) — see [Getting started](#getting-started).
 - WWDC26 sessions — see [Official](#official).
+- [Steven-ZN/Apple-26-ai-skill](https://github.com/Steven-ZN/Apple-26-ai-skill) — Guide coding agents to instrument, trace, compare, and optimize Apple Foundation Models, PCC, Core AI, and multi-session agentic flows using Instruments, str...
 
 ## Contributing
 
