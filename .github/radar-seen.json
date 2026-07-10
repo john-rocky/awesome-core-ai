@@ -1,0 +1,19 @@
+{
+  "github": [
+    "2330172-arch/coreai",
+    "RohanLala04/dult-tracker-detector",
+    "Steven-ZN/Apple-26-ai-skill",
+    "Xavierhuang/CoreAI",
+    "ezhoureal/coreAI-demo",
+    "gafiatulin/vibevoice-coreai",
+    "katlun-lgtm/mobileportrait-mlx",
+    "kevinqz/coreai-fabric",
+    "kevinqz/coreai-runner",
+    "kevinqz/lerobot-coreai",
+    "laclouis5/rfdetr-coreai",
+    "nixology/coreai.nix",
+    "tianxingjian-123/qibo-m4-heterogeneous-training",
+    "virtual6023/coreai-model-zoo"
+  ],
+  "huggingface": []
+}
