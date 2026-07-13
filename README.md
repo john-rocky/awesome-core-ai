@@ -49,6 +49,7 @@ growing around it.
 - [Hugging Face: mlboydaisuke](https://huggingface.co/mlboydaisuke) — The zoo's published `.aimodel` bundles.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
+- [tmorales2000/fastvlm-coreai](https://github.com/tmorales2000/fastvlm-coreai) — FastVLM vision-language model converted to Apple Core AI .aimodel format for Neural Engine deployment on iOS/macOS 27.
 
 ## Conversion
 

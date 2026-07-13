@@ -14,7 +14,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
 | [RohanLala04/dult-tracker-detector](https://github.com/RohanLala04/dult-tracker-detector) | 0 | 2026-06-10 | strong | Models | On-device BLE tracker detector implementing the Apple-Google DULT spec (IETF draft-ledvina-apple-google-unwanted-trackers-02) with Core AI on-device ML infer... |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
-| [ezhoureal/coreAI-demo](https://github.com/ezhoureal/coreAI-demo) | 0 | 2026-06-25 | strong | Conversion | (no description) |
+| [docvarma/coreai-models](https://github.com/docvarma/coreai-models) | 0 | 2026-06-27 | strong | Conversion | Unofficial apple/coreai-models compatibility repository with Qwen3.6 extra-state runtime support. |
 | [gafiatulin/vibevoice-coreai](https://github.com/gafiatulin/vibevoice-coreai) | 0 | 2026-06-19 | strong | Models | On-device TTS and ASR using Microsoft VibeVoice models converted to CoreAI |
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
