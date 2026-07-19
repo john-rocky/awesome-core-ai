@@ -50,6 +50,7 @@ growing around it.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
 - [tmorales2000/fastvlm-coreai](https://github.com/tmorales2000/fastvlm-coreai) — FastVLM vision-language model converted to Apple Core AI .aimodel format for Neural Engine deployment on iOS/macOS 27.
+- [0Itsuki0/Swift_STTWithCoreAI](https://github.com/0Itsuki0/Swift_STTWithCoreAI) — A demo of using the CoreAI framework (OS 27+) for on-device Speech to text.
 
 ## Conversion
 

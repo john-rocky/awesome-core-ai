@@ -18,8 +18,13 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [gafiatulin/vibevoice-coreai](https://github.com/gafiatulin/vibevoice-coreai) | 0 | 2026-06-19 | strong | Models | On-device TTS and ASR using Microsoft VibeVoice models converted to CoreAI |
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
-| [kevinqz/coreai-runner](https://github.com/kevinqz/coreai-runner) | 0 | 2026-07-04 | strong | Running models in your app | Swift binary that loads .aimodel packages and serves inference over HTTP (Unix socket). Embeds CoreAIKit. Used by ComfyUI-CoreAI, Ditto, and future apps. |
 | [kevinqz/lerobot-coreai](https://github.com/kevinqz/lerobot-coreai) | 0 | 2026-07-08 | strong | Benchmarks & engineering notes | Apple CoreAI runtime backend for LeRobot policies. |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
 | [nixology/coreai.nix](https://github.com/nixology/coreai.nix) | 0 | 2026-06-11 | strong | Conversion | CoreAI |
 | [tianxingjian-123/qibo-m4-heterogeneous-training](https://github.com/tianxingjian-123/qibo-m4-heterogeneous-training) | 0 | 2026-06-19 | strong | Models | Qibo (岐伯): M4 Heterogeneous Unified Training System — CPU+GPU+ANE all-core AI training on Apple Silicon. Features pre-compiled ANE program pool (5-6x speedup... |
+
+## Hugging Face
+
+| Model | Downloads | Likes |
+|---|---|---|
+| [mweinbach/nemotron-3.5-asr-streaming-0.6b-coreai](https://huggingface.co/mweinbach/nemotron-3.5-asr-streaming-0.6b-coreai) | 0 | 1 |
