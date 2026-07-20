@@ -27,4 +27,5 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Model | Downloads | Likes |
 |---|---|---|
+| [massif/Qwen3-1.7B-CoreAI-ANE-W8-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-ANE-W8-4K-h16p) | 0 | 1 |
 | [mweinbach/nemotron-3.5-asr-streaming-0.6b-coreai](https://huggingface.co/mweinbach/nemotron-3.5-asr-streaming-0.6b-coreai) | 0 | 1 |
