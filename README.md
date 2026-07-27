@@ -42,6 +42,7 @@ growing around it.
 - [rudrankriyam/Core-AI-Framework-Lab](https://github.com/rudrankriyam/Core-AI-Framework-Lab) — Practical lab app: model asset management, specialization states, compute-unit configuration, benchmarking across modalities.
 - [Techopolis/AFM-Studio](https://github.com/Techopolis/AFM-Studio) — Chat app spanning Apple Foundation Models, Private Cloud Compute, and Core AI models behind one provider interface.
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
+- [massif-01/coreai-hybrid-state-runtime](https://github.com/massif-01/coreai-hybrid-state-runtime) — Device-validated four-state hybrid decoder support for Apple Core AI sequential runtime
 
 ## Models
 

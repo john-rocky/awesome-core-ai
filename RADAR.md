@@ -12,6 +12,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | Repo | ★ | Created | Signal | Guessed section | Description |
 |---|---|---|---|---|---|
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
+| [AustinJiangH/voixful](https://github.com/AustinJiangH/voixful) | 0 | 2026-07-25 | strong | Running models in your app | A SpeechAnalyzer-shaped on-device speech API for Apple Silicon — local ASR backends running through Core AI (Nemotron, Parakeet, Granite, Cohere, Canary). |
 | [RohanLala04/dult-tracker-detector](https://github.com/RohanLala04/dult-tracker-detector) | 0 | 2026-06-10 | strong | Models | On-device BLE tracker detector implementing the Apple-Google DULT spec (IETF draft-ledvina-apple-google-unwanted-trackers-02) with Core AI on-device ML infer... |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
 | [docvarma/coreai-models](https://github.com/docvarma/coreai-models) | 0 | 2026-06-27 | strong | Conversion | Unofficial apple/coreai-models compatibility repository with Qwen3.6 extra-state runtime support. |
@@ -27,5 +28,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [massif/Qwen3-1.7B-CoreAI-ANE-W8-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-ANE-W8-4K-h16p) | 0 | 1 |
-| [mweinbach/nemotron-3.5-asr-streaming-0.6b-coreai](https://huggingface.co/mweinbach/nemotron-3.5-asr-streaming-0.6b-coreai) | 0 | 1 |
+| [kevinqz/LingBot-VLA-2.0-CoreAI](https://huggingface.co/kevinqz/LingBot-VLA-2.0-CoreAI) | 0 | 1 |
+| [massif/Qwen3-1.7B-CoreAI-ANE-W8-2K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-ANE-W8-2K-h16p) | 0 | 1 |
+| [massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p) | 0 | 1 |
+| [ukint-vs/Nanbeige4.2-3B-CoreAI](https://huggingface.co/ukint-vs/Nanbeige4.2-3B-CoreAI) | 0 | 1 |
