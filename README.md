@@ -70,7 +70,7 @@ growing around it.
 ## Benchmarks & engineering notes
 
 - [coreai-model-zoo decode-throughput tables](https://github.com/john-rocky/coreai-model-zoo#models) — Device-verified tok/s (greedy, top-1 exact vs the Hugging Face reference) on iPhone 17 Pro GPU/ANE and M4 Max.
-- [coreai-model-zoo/knowledge](https://github.com/john-rocky/coreai-model-zoo/tree/main/knowledge) — Port write-ups and engineering notes: ANE vs GPU trade-offs, quantization ladders, chunked prefill, speculative decoding, custom Metal kernels.
+- [Core AI knowledge base](https://john-rocky.github.io/coreai-model-zoo/) — 76 verified notes as a page per topic: stateful KV cache, AOT and specialization, ANE vs GPU authoring rules, quantization ladders, chunked prefill, speculative decoding, custom Metal kernels. Plain HTML, so it is readable without JavaScript — unlike Apple's own Core AI documentation, which returns no body to a fetcher. [`llms.txt`](https://john-rocky.github.io/coreai-model-zoo/llms.txt) indexes every page. ([source](https://github.com/john-rocky/coreai-model-zoo/tree/main/knowledge))
 - [rwrun/coreAIvsMLLLM](https://github.com/rwrun/coreAIvsMLLLM) — Core AI vs MLX LLM comparison on iOS (Russian).
 
 ## Learning
