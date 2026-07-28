@@ -38,7 +38,7 @@ growing around it.
 
 ## Running models in your app
 
-- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 49-model pinned catalog, nightly on-device gate. FoundationModels-compatible: catalog models plug into `LanguageModelSession` with tool calling and guided generation. SPM.
+- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 53-model catalog pinned to immutable Hugging Face revisions, each gated against its source model before enrollment. FoundationModels-compatible: catalog models plug into `LanguageModelSession` with tool calling and guided generation. SPM.
 - [rudrankriyam/Core-AI-Framework-Lab](https://github.com/rudrankriyam/Core-AI-Framework-Lab) — Practical lab app: model asset management, specialization states, compute-unit configuration, benchmarking across modalities.
 - [Techopolis/AFM-Studio](https://github.com/Techopolis/AFM-Studio) — Chat app spanning Apple Foundation Models, Private Cloud Compute, and Core AI models behind one provider interface.
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
@@ -46,7 +46,7 @@ growing around it.
 
 ## Models
 
-- [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — 49 models converted and device-verified (iPhone 17 Pro / M4 Max): LLM, VLM, OCR, ASR, TTS, diarization, image/video/music generation, forecasting. Each with a downloadable Hugging Face bundle, conversion recipe, and a ready-to-build app.
+- [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — 57 models, each gated against its source model before publishing (iPhone tier device-measured; the large ones are Mac-only and say so): LLM, VLM, OCR, ASR, TTS, diarization, image/video/music generation, forecasting. Each with a downloadable Hugging Face bundle, conversion recipe, and a ready-to-build app.
 - [Hugging Face: mlboydaisuke](https://huggingface.co/mlboydaisuke) — The zoo's published `.aimodel` bundles.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
