@@ -12,23 +12,20 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | Repo | ★ | Created | Signal | Guessed section | Description |
 |---|---|---|---|---|---|
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
-| [AustinJiangH/voixful](https://github.com/AustinJiangH/voixful) | 0 | 2026-07-25 | strong | Running models in your app | A SpeechAnalyzer-shaped on-device speech API for Apple Silicon — local ASR backends running through Core AI (Nemotron, Parakeet, Granite, Cohere, Canary). |
 | [RohanLala04/dult-tracker-detector](https://github.com/RohanLala04/dult-tracker-detector) | 0 | 2026-06-10 | strong | Models | On-device BLE tracker detector implementing the Apple-Google DULT spec (IETF draft-ledvina-apple-google-unwanted-trackers-02) with Core AI on-device ML infer... |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
 | [docvarma/coreai-models](https://github.com/docvarma/coreai-models) | 0 | 2026-06-27 | strong | Conversion | Unofficial apple/coreai-models compatibility repository with Qwen3.6 extra-state runtime support. |
-| [gafiatulin/vibevoice-coreai](https://github.com/gafiatulin/vibevoice-coreai) | 0 | 2026-06-19 | strong | Models | On-device TTS and ASR using Microsoft VibeVoice models converted to CoreAI |
+| [hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills](https://github.com/hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills) | 0 | 2026-07-27 | strong | Learning | An independent, evidence-backed guide and research corpus for Apple's 2026 on-device AI stack: Foundation Models, Core AI, MLX, Evaluations, Speech, and Metal. |
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
 | [kevinqz/lerobot-coreai](https://github.com/kevinqz/lerobot-coreai) | 0 | 2026-07-08 | strong | Benchmarks & engineering notes | Apple CoreAI runtime backend for LeRobot policies. |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
 | [nixology/coreai.nix](https://github.com/nixology/coreai.nix) | 0 | 2026-06-11 | strong | Conversion | CoreAI |
 | [tianxingjian-123/qibo-m4-heterogeneous-training](https://github.com/tianxingjian-123/qibo-m4-heterogeneous-training) | 0 | 2026-06-19 | strong | Models | Qibo (岐伯): M4 Heterogeneous Unified Training System — CPU+GPU+ANE all-core AI training on Apple Silicon. Features pre-compiled ANE program pool (5-6x speedup... |
+| [xocialize/coreai-realesrgan-swift](https://github.com/xocialize/coreai-realesrgan-swift) | 0 | 2026-08-01 | strong | Conversion | Real-ESRGAN 4× super-resolution on the Apple Neural Engine via CoreAI — fp16, parity-locked, macOS 27+ |
 
 ## Hugging Face
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [kevinqz/LingBot-VLA-2.0-CoreAI](https://huggingface.co/kevinqz/LingBot-VLA-2.0-CoreAI) | 0 | 1 |
-| [massif/Qwen3-1.7B-CoreAI-ANE-W8-2K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-ANE-W8-2K-h16p) | 0 | 1 |
-| [massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p) | 0 | 1 |
-| [ukint-vs/Nanbeige4.2-3B-CoreAI](https://huggingface.co/ukint-vs/Nanbeige4.2-3B-CoreAI) | 0 | 1 |
+| [massif/Qwen3-1.7B-CoreAI-ANE-W8-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-ANE-W8-4K-h16p) | 0 | 2 |

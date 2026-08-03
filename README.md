@@ -62,6 +62,8 @@ growing around it.
 - [weichao1221/coreai-models-gui](https://github.com/weichao1221/coreai-models-gui) — SwiftUI GUI for Core AI model export, with ModelScope source support.
 - [NagaYu/silicon-forge](https://github.com/NagaYu/silicon-forge) — Pull, convert, quantize, benchmark, and package open-weight LLMs for Apple silicon (MLX → Core AI).
 - [massif-01/qwen3-1.7b-coreai-ios](https://github.com/massif-01/qwen3-1.7b-coreai-ios) — High-fidelity Qwen3-1.7B W8 onboarding with A17 Pro Neural Engine validation for Apple Core AI.
+- [massif-01/qwen3-1.7b-coreai-reproduction](https://github.com/massif-01/qwen3-1.7b-coreai-reproduction) — Reproducible Qwen3-1.7B Core AI INT4 GPU conversion, physical-device benchmarks, and W8/ANE comparison.
+- [AustinJiangH/voixful](https://github.com/AustinJiangH/voixful) — A SpeechAnalyzer-shaped on-device speech API for Apple Silicon — local ASR backends running through Core AI (Nemotron, Parakeet, Granite, Cohere, Canary).
 
 ## Serving
 
