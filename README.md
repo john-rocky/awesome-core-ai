@@ -64,6 +64,7 @@ growing around it.
 - [massif-01/qwen3-1.7b-coreai-ios](https://github.com/massif-01/qwen3-1.7b-coreai-ios) — High-fidelity Qwen3-1.7B W8 onboarding with A17 Pro Neural Engine validation for Apple Core AI.
 - [massif-01/qwen3-1.7b-coreai-reproduction](https://github.com/massif-01/qwen3-1.7b-coreai-reproduction) — Reproducible Qwen3-1.7B Core AI INT4 GPU conversion, physical-device benchmarks, and W8/ANE comparison.
 - [AustinJiangH/voixful](https://github.com/AustinJiangH/voixful) — A SpeechAnalyzer-shaped on-device speech API for Apple Silicon — local ASR backends running through Core AI (Nemotron, Parakeet, Granite, Cohere, Canary).
+- [xocialize/coreai-realesrgan-swift](https://github.com/xocialize/coreai-realesrgan-swift) — Real-ESRGAN 4× super-resolution on the Apple Neural Engine via CoreAI — fp16, parity-locked, macOS 27+
 
 ## Serving
 

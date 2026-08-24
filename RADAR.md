@@ -15,6 +15,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
 | [RohanLala04/dult-tracker-detector](https://github.com/RohanLala04/dult-tracker-detector) | 0 | 2026-06-10 | strong | Models | On-device BLE tracker detector implementing the Apple-Google DULT spec (IETF draft-ledvina-apple-google-unwanted-trackers-02) with Core AI on-device ML infer... |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
+| [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
 | [docvarma/coreai-models](https://github.com/docvarma/coreai-models) | 0 | 2026-06-27 | strong | Conversion | Unofficial apple/coreai-models compatibility repository with Qwen3.6 extra-state runtime support. |
 | [hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills](https://github.com/hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills) | 0 | 2026-07-27 | strong | Learning | An independent, evidence-backed guide and research corpus for Apple's 2026 on-device AI stack: Foundation Models, Core AI, MLX, Evaluations, Speech, and Metal. |
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
@@ -24,4 +25,3 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [maxffarrell/gtcrn-coreai](https://github.com/maxffarrell/gtcrn-coreai) | 0 | 2026-08-11 | strong | Models | Streaming GTCRN speech enhancement converted to Apple's Core AI format |
 | [nixology/coreai.nix](https://github.com/nixology/coreai.nix) | 0 | 2026-06-11 | strong | Conversion | CoreAI |
 | [tianxingjian-123/qibo-m4-heterogeneous-training](https://github.com/tianxingjian-123/qibo-m4-heterogeneous-training) | 0 | 2026-06-19 | strong | Models | Qibo (岐伯): M4 Heterogeneous Unified Training System — CPU+GPU+ANE all-core AI training on Apple Silicon. Features pre-compiled ANE program pool (5-6x speedup... |
-| [xocialize/coreai-realesrgan-swift](https://github.com/xocialize/coreai-realesrgan-swift) | 0 | 2026-08-01 | strong | Conversion | Real-ESRGAN 4× super-resolution on the Apple Neural Engine via CoreAI — fp16, parity-locked, macOS 27+ |
