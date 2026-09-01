@@ -38,7 +38,7 @@ growing around it.
 
 ## Running models in your app
 
-- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 53-model catalog pinned to immutable Hugging Face revisions, each gated against its source model before enrollment. FoundationModels-compatible: catalog models plug into `LanguageModelSession` with tool calling and guided generation. SPM.
+- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 60-model catalog pinned to immutable Hugging Face revisions, each gated against its source model before enrollment. FoundationModels-compatible: catalog models plug into `LanguageModelSession` with tool calling and guided generation. SPM.
 - [rudrankriyam/Core-AI-Framework-Lab](https://github.com/rudrankriyam/Core-AI-Framework-Lab) — Practical lab app: model asset management, specialization states, compute-unit configuration, benchmarking across modalities.
 - [Techopolis/AFM-Studio](https://github.com/Techopolis/AFM-Studio) — Chat app spanning Apple Foundation Models, Private Cloud Compute, and Core AI models behind one provider interface.
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
@@ -73,7 +73,7 @@ growing around it.
 ## Benchmarks & engineering notes
 
 - [coreai-model-zoo decode-throughput tables](https://github.com/john-rocky/coreai-model-zoo#models) — Device-verified tok/s (greedy, top-1 exact vs the Hugging Face reference) on iPhone 17 Pro GPU/ANE and M4 Max.
-- [Core AI knowledge base](https://john-rocky.github.io/coreai-model-zoo/) — 76 verified notes as a page per topic: stateful KV cache, AOT and specialization, ANE vs GPU authoring rules, quantization ladders, chunked prefill, speculative decoding, custom Metal kernels. Apple documents the API surface; these cover what the runtime does when you run it — thresholds, failure modes, measured numbers. [`llms.txt`](https://john-rocky.github.io/coreai-model-zoo/llms.txt) indexes every page. ([source](https://github.com/john-rocky/coreai-model-zoo/tree/main/knowledge))
+- [Core AI knowledge base](https://john-rocky.github.io/coreai-model-zoo/) — 91 verified notes as a page per topic: stateful KV cache, AOT and specialization, ANE vs GPU authoring rules, quantization ladders, chunked prefill, speculative decoding, custom Metal kernels. Apple documents the API surface; these cover what the runtime does when you run it — thresholds, failure modes, measured numbers. [`llms.txt`](https://john-rocky.github.io/coreai-model-zoo/llms.txt) indexes every page. ([source](https://github.com/john-rocky/coreai-model-zoo/tree/main/knowledge))
 - [rwrun/coreAIvsMLLLM](https://github.com/rwrun/coreAIvsMLLLM) — Core AI vs MLX LLM comparison on iOS (Russian).
 
 ## Learning
