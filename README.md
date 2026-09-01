@@ -46,7 +46,7 @@ growing around it.
 
 ## Models
 
-- [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — 57 models, each gated against its source model before publishing (iPhone tier device-measured; the large ones are Mac-only and say so): LLM, VLM, OCR, ASR, TTS, diarization, image/video/music generation, forecasting. Each with a downloadable Hugging Face bundle, conversion recipe, and a ready-to-build app.
+- [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — 66 models, each gated against its source model before publishing (iPhone tier device-measured; the large ones are Mac-only and say so): LLM, VLM, OCR, ASR, TTS, diarization, image/video/music generation, forecasting. Each with a downloadable Hugging Face bundle, conversion recipe, and a ready-to-build app.
 - [Hugging Face: mlboydaisuke](https://huggingface.co/mlboydaisuke) — The zoo's published `.aimodel` bundles.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
