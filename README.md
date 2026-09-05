@@ -3,9 +3,7 @@
 > Curated resources for Apple's **Core AI** framework (iOS 27 / macOS 27+) — official tooling,
 > converted models, conversion pipelines, sample apps, benchmarks, and learning material.
 
-Core AI is Apple's next-generation on-device ML stack (successor to Core ML): models ship as
-`.aimodel` bundles and run on Apple silicon GPU / Neural Engine. This list tracks the ecosystem
-growing around it.
+Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor to Core ML: PyTorch models are exported with Apple's `coreai-torch` (LLMs: `coreai.llm.export`) into `.aimodel` bundles that run on the GPU or the Neural Engine, e.g. Qwen3-8B 4-bit decodes at 94 tok/s on an M4 Max GPU, MLX 90 under the same protocol ([apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench), macOS 27 beta, 2026-06). This list tracks the ecosystem growing around it.
 
 *PRs welcome — see [Contributing](#contributing).*
 
