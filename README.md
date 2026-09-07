@@ -83,6 +83,13 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 - WWDC26 sessions — see [Official](#official).
 - [Steven-ZN/Apple-26-ai-skill](https://github.com/Steven-ZN/Apple-26-ai-skill) — Guide coding agents to instrument, trace, compare, and optimize Apple Foundation Models, PCC, Core AI, and multi-session agentic flows using Instruments, str...
 
+## Maintainer
+
+[**Daisuke Majima (MLBoy)**](https://github.com/john-rocky) — who also ports the
+[Core AI model zoo](https://github.com/john-rocky/coreai-model-zoo) ([huggingface.co/mlboydaisuke](https://huggingface.co/mlboydaisuke)),
+runs [devicemark](https://devicemark.github.io/) (on-device LLM leaderboard), and wrote
+[The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/). Entries above are ordered by usefulness, not authorship.
+
 ## Contributing
 
 PRs welcome. Criteria for inclusion:
