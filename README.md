@@ -63,6 +63,9 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 - [massif-01/qwen3-1.7b-coreai-reproduction](https://github.com/massif-01/qwen3-1.7b-coreai-reproduction) — Reproducible Qwen3-1.7B Core AI INT4 GPU conversion, physical-device benchmarks, and W8/ANE comparison.
 - [AustinJiangH/voixful](https://github.com/AustinJiangH/voixful) — A SpeechAnalyzer-shaped on-device speech API for Apple Silicon — local ASR backends running through Core AI (Nemotron, Parakeet, Granite, Cohere, Canary).
 - [xocialize/coreai-realesrgan-swift](https://github.com/xocialize/coreai-realesrgan-swift) — Real-ESRGAN 4× super-resolution on the Apple Neural Engine via CoreAI — fp16, parity-locked, macOS 27+
+- [sinkect/paddleocr-coreai](https://github.com/sinkect/paddleocr-coreai) — Core AI exporters and Swift runtime for PaddleOCR-VL 1.6 and PP-DocLayoutV3.
+- [ETeissonniere/coreai-agent](https://github.com/ETeissonniere/coreai-agent) — (no description)
+- [joaaosc/aguardente](https://github.com/joaaosc/aguardente) — Ferramenta CLI elegante e minimalista baseada no framework CoreAI para a converter e destilar automaticamente modelos PyTorch em nativo Apple Silicon. Recome...
 
 ## Serving
 
