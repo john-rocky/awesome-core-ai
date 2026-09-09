@@ -56,6 +56,7 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 - [apple/coreai-torch](https://github.com/apple/coreai-torch) — The official bring-your-own-PyTorch-model path (see [Official](#official)).
 - [devin-lai/coreai-onnx](https://github.com/devin-lai/coreai-onnx) — Convert ONNX models directly to `.aimodel`.
 - [coreai-model-zoo/conversion](https://github.com/john-rocky/coreai-model-zoo/tree/main/conversion) — Reproducible per-model conversion recipes (pinned base + overlay) behind every zoo bundle, with a `doctor`/`run` CLI.
+- [Conversion guide (zoo knowledge base)](https://john-rocky.github.io/coreai-model-zoo/knowledge/conversion-guide.html) — Which path for which model (zoo recipe / Apple preset / re-author / `TorchConverter` five-liner / ONNX), the canonical API, and the [error index](https://john-rocky.github.io/coreai-model-zoo/knowledge/coreai-error-index.html) for when it fails.
 - [lucasnewman/mlx2coreai](https://github.com/lucasnewman/mlx2coreai) — Convert MLX models to Core AI.
 - [weichao1221/coreai-models-gui](https://github.com/weichao1221/coreai-models-gui) — SwiftUI GUI for Core AI model export, with ModelScope source support.
 - [NagaYu/silicon-forge](https://github.com/NagaYu/silicon-forge) — Pull, convert, quantize, benchmark, and package open-weight LLMs for Apple silicon (MLX → Core AI).
