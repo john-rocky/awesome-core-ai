@@ -67,6 +67,7 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 - [sinkect/paddleocr-coreai](https://github.com/sinkect/paddleocr-coreai) — Core AI exporters and Swift runtime for PaddleOCR-VL 1.6 and PP-DocLayoutV3.
 - [ETeissonniere/coreai-agent](https://github.com/ETeissonniere/coreai-agent) — (no description)
 - [joaaosc/aguardente](https://github.com/joaaosc/aguardente) — Ferramenta CLI elegante e minimalista baseada no framework CoreAI para a converter e destilar automaticamente modelos PyTorch em nativo Apple Silicon. Recome...
+- [cadamcat/llms-on-apple-neural-engine](https://github.com/cadamcat/llms-on-apple-neural-engine) — Apple Neural Engine (ANE/NPU) vs GPU for local LLM inference on Apple Silicon / macOS. Core ML (CoreML), Core AI (CoreAI), MLX and Metal benchmarks: prefill,...
 
 ## Serving
 
