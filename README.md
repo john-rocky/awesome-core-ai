@@ -3,7 +3,19 @@
 > Curated resources for Apple's **Core AI** framework (iOS 27 / macOS 27+) — official tooling,
 > converted models, conversion pipelines, sample apps, benchmarks, and learning material.
 
-Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor to Core ML: PyTorch models are exported with Apple's `coreai-torch` (LLMs: `coreai.llm.export`) into `.aimodel` bundles that run on the GPU or the Neural Engine, e.g. Qwen3-8B 4-bit decodes at 94 tok/s on an M4 Max GPU, MLX 90 under the same protocol ([apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench), macOS 27 beta, 2026-06). This list tracks the ecosystem growing around it.
+Need to try a local model, add one to a Swift app, or convert your own? Start with the route below. Core AI uses `.aimodel` bundles on iOS 27 / macOS 27; the linked projects document their own model, device, and toolchain requirements.
+
+## Start with a task
+
+| What you want to do | Start here |
+|---|---|
+| Try a model before writing code | [Core AI start page](https://john-rocky.github.io/core-ai/) — Mac download, iPhone TestFlight, and a recorded demo with its test environment |
+| Add a specific model to a Swift app | [CoreAIKit quickstart](https://github.com/john-rocky/coreai-kit#quickstart) — package setup, a small chat model, and the Foundation Models integration |
+| Choose a downloadable model | [Core AI model zoo](https://github.com/john-rocky/coreai-model-zoo#models) — model cards, conversion recipes, and device-specific evidence |
+| Give a coding agent the relevant sources | [Task index](https://john-rocky.github.io/core-ai/llms.txt) and [resource manifest](https://john-rocky.github.io/core-ai/resources.json) — package guidance, catalogs, examples, and release links |
+| Understand model conversion and runtime behavior | [The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/) and the [conversion guide](https://john-rocky.github.io/coreai-model-zoo/knowledge/conversion-guide.html) |
+
+Check Apple's system-provided models and task APIs first. A custom model is useful when the app needs a particular model or capability; the linked releases state what was actually tested, including beta environments.
 
 *PRs welcome — see [Contributing](#contributing).*
 
@@ -29,14 +41,14 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 
 ## Getting started
 
-- [coreai-kit ChatDemo](https://github.com/john-rocky/coreai-kit/tree/main/Examples/ChatDemo) — Open the Xcode project, pick a model in the picker, chat fully on-device; the model downloads once and is cached. Also a terminal path: `swift run chat-cli`.
+- [coreai-kit ChatDemo](https://github.com/john-rocky/coreai-kit/tree/0.4.1/Examples/ChatDemo) — SwiftUI chat app and terminal example. Follow the [release quickstart](https://github.com/john-rocky/coreai-kit/blob/0.4.1/README.md#quickstart) for the package path, first model download, and tested environment.
 - [timokoethe/CoreAIChat](https://github.com/timokoethe/CoreAIChat) — Minimal SwiftUI chat app for macOS showing the smallest `CoreAILanguageModel` → `LanguageModelSession` wiring.
 - [rbniranjan/WWDC2026CoreAI](https://github.com/rbniranjan/WWDC2026CoreAI) — Hands-on examples following the WWDC26 sessions.
 - [The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/) — Free hands-on book: 13 chapters + labs from first export to custom kernels ([source](https://github.com/john-rocky/the-art-of-core-ai), [Japanese edition on Zenn](https://zenn.dev/mlboydaisuke/books/coreai-textbook)).
 
 ## Running models in your app
 
-- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — One line of Swift per model (`ChatSession(catalog: "qwen3.5-2b")`) across LLM / VLM / ASR / TTS / diarization / detection and more; 60-model catalog pinned to immutable Hugging Face revisions, each gated against its source model before enrollment. FoundationModels-compatible: catalog models plug into `LanguageModelSession` with tool calling and guided generation. SPM.
+- [john-rocky/coreai-kit](https://github.com/john-rocky/coreai-kit) — Swift package for chat, vision, speech, and other local model tasks, with downloads, caching, and a catalog pinned to Hugging Face revisions. Catalog models can plug into `LanguageModelSession`; see the documented tool-calling and guided-generation limits.
 - [rudrankriyam/Core-AI-Framework-Lab](https://github.com/rudrankriyam/Core-AI-Framework-Lab) — Practical lab app: model asset management, specialization states, compute-unit configuration, benchmarking across modalities.
 - [Techopolis/AFM-Studio](https://github.com/Techopolis/AFM-Studio) — Chat app spanning Apple Foundation Models, Private Cloud Compute, and Core AI models behind one provider interface.
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
@@ -44,7 +56,7 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 
 ## Models
 
-- [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — 66 models, each gated against its source model before publishing (iPhone tier device-measured; the large ones are Mac-only and say so): LLM, VLM, OCR, ASR, TTS, diarization, image/video/music generation, forecasting. Each with a downloadable Hugging Face bundle, conversion recipe, and a ready-to-build app.
+- [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — Downloadable Core AI models for language, vision, audio, generation, and forecasting. Model cards link the conversion recipe, validation results, and available sample app; platform support and test coverage vary by model.
 - [Hugging Face: mlboydaisuke](https://huggingface.co/mlboydaisuke) — The zoo's published `.aimodel` bundles.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
@@ -76,7 +88,7 @@ Core AI is Apple's on-device ML runtime in iOS 27 / macOS 27 and the successor t
 ## Benchmarks & engineering notes
 
 - [coreai-model-zoo decode-throughput tables](https://github.com/john-rocky/coreai-model-zoo#models) — Device-verified tok/s (greedy, top-1 exact vs the Hugging Face reference) on iPhone 17 Pro GPU/ANE and M4 Max.
-- [Core AI knowledge base](https://john-rocky.github.io/coreai-model-zoo/) — 91 verified notes as a page per topic: stateful KV cache, AOT and specialization, ANE vs GPU authoring rules, quantization ladders, chunked prefill, speculative decoding, custom Metal kernels. Apple documents the API surface; these cover what the runtime does when you run it — thresholds, failure modes, measured numbers. [`llms.txt`](https://john-rocky.github.io/coreai-model-zoo/llms.txt) indexes every page. ([source](https://github.com/john-rocky/coreai-model-zoo/tree/main/knowledge))
+- [Core AI knowledge base](https://john-rocky.github.io/coreai-model-zoo/) — Engineering notes organized by topic: stateful KV cache, AOT and specialization, ANE vs GPU authoring rules, quantization ladders, chunked prefill, speculative decoding, custom Metal kernels. Apple documents the API surface; these cover what the runtime does when you run it — thresholds, failure modes, measured numbers. [`llms.txt`](https://john-rocky.github.io/coreai-model-zoo/llms.txt) indexes every page. ([source](https://github.com/john-rocky/coreai-model-zoo/tree/main/knowledge))
 - [rwrun/coreAIvsMLLLM](https://github.com/rwrun/coreAIvsMLLLM) — Core AI vs MLX LLM comparison on iOS (Russian).
 
 ## Learning
