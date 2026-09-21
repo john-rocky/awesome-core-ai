@@ -62,6 +62,8 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
 - [tmorales2000/fastvlm-coreai](https://github.com/tmorales2000/fastvlm-coreai) — FastVLM vision-language model converted to Apple Core AI .aimodel format for Neural Engine deployment on iOS/macOS 27.
 - [0Itsuki0/Swift_STTWithCoreAI](https://github.com/0Itsuki0/Swift_STTWithCoreAI) — A demo of using the CoreAI framework (OS 27+) for on-device Speech to text.
+- [james-333i/coreai-models-xcframework](https://github.com/james-333i/coreai-models-xcframework) — Build scripts for creating coreai-models xcframework to enable support for using it in projects requiring lower min SDK than coreai-models supports.
+- [RahulRachuri/bonsai-swift](https://github.com/RahulRachuri/bonsai-swift) — Bonsai 2 27B (PrismML ternary Qwen3.8) on Apple Core AI, in Swift
 
 ## Conversion
 
