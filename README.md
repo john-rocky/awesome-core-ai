@@ -14,6 +14,7 @@ Need to try a local model, add one to a Swift app, or convert your own? Start wi
 | Choose a downloadable model | [Core AI model zoo](https://github.com/john-rocky/coreai-model-zoo#models) — model cards, conversion recipes, and device-specific evidence |
 | Give a coding agent the relevant sources | [Task index](https://john-rocky.github.io/core-ai/llms.txt) and [resource manifest](https://john-rocky.github.io/core-ai/resources.json) — package guidance, catalogs, examples, and release links |
 | Understand model conversion and runtime behavior | [The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/) and the [conversion guide](https://john-rocky.github.io/coreai-model-zoo/knowledge/conversion-guide.html) |
+| Make typed decisions on device (System One: choice, score, yes/no with probabilities, nothing generated) | [System One, on device](https://github.com/john-rocky/coreai-kit/blob/main/docs/SYSTEM_ONE.md) — the Swift call, a local `/v1/systemone` endpoint for clients written for the hosted API, ten whole uses on Mac and iPhone with the numbers |
 
 Check Apple's system-provided models and task APIs first. A custom model is useful when the app needs a particular model or capability; the linked releases state what was actually tested, including beta environments.
 
@@ -41,7 +42,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 
 ## Getting started
 
-- [coreai-kit ChatDemo](https://github.com/john-rocky/coreai-kit/tree/0.4.1/Examples/ChatDemo) — SwiftUI chat app and terminal example. Follow the [release quickstart](https://github.com/john-rocky/coreai-kit/blob/0.4.1/README.md#quickstart) for the package path, first model download, and tested environment.
+- [coreai-kit ChatDemo](https://github.com/john-rocky/coreai-kit/tree/0.5.0/Examples/ChatDemo) — SwiftUI chat app and terminal example. Follow the [release quickstart](https://github.com/john-rocky/coreai-kit/blob/0.5.0/README.md#quickstart) for the package path, first model download, and tested environment.
 - [timokoethe/CoreAIChat](https://github.com/timokoethe/CoreAIChat) — Minimal SwiftUI chat app for macOS showing the smallest `CoreAILanguageModel` → `LanguageModelSession` wiring.
 - [rbniranjan/WWDC2026CoreAI](https://github.com/rbniranjan/WWDC2026CoreAI) — Hands-on examples following the WWDC26 sessions.
 - [The Art of Core AI](https://john-rocky.github.io/the-art-of-core-ai/) — Free hands-on book: 13 chapters + labs from first export to custom kernels ([source](https://github.com/john-rocky/the-art-of-core-ai), [Japanese edition on Zenn](https://zenn.dev/mlboydaisuke/books/coreai-textbook)).
@@ -58,6 +59,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 
 - [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) — Downloadable Core AI models for language, vision, audio, generation, and forecasting. Model cards link the conversion recipe, validation results, and available sample app; platform support and test coverage vary by model.
 - [Hugging Face: mlboydaisuke](https://huggingface.co/mlboydaisuke) — The zoo's published `.aimodel` bundles.
+- [mlboydaisuke/decider-0.8b-CoreAI](https://huggingface.co/mlboydaisuke/decider-0.8b-CoreAI) — A model trained for typed decisions (choice, score, yes/no at an answer slot), checked row by row against its author's readout; catalog kind `decision` in coreai-kit.
 - [SAL2-Dev/ComfyUI-CoreAI](https://github.com/SAL2-Dev/ComfyUI-CoreAI) — Core AI vision nodes (depth, detection, VLM, CLIP, on-device LLM) for ComfyUI.
 - [kevinqz/coreai-catalog](https://github.com/kevinqz/coreai-catalog) — Source-grounded registry of Core AI models, artifacts, upstreams, and provenance.
 - [tmorales2000/fastvlm-coreai](https://github.com/tmorales2000/fastvlm-coreai) — FastVLM vision-language model converted to Apple Core AI .aimodel format for Neural Engine deployment on iOS/macOS 27.
@@ -86,6 +88,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 ## Serving
 
 - [RedHillsMediaFL/caix](https://github.com/RedHillsMediaFL/caix) — Native Core AI inference server for Apple silicon: OpenAI/Anthropic-compatible API, dashboard, streaming chat.
+- [coreai-kit `decide-cli serve`](https://github.com/john-rocky/coreai-kit/tree/main/Examples/Decide#the-same-endpoint-your-client-already-speaks) — Local `/v1/systemone` endpoint in the hosted System One request and answer forms over a catalog model; a client written for the hosted API switches by base URL (curl and Python examples in the repo).
 
 ## Benchmarks & engineering notes
 
