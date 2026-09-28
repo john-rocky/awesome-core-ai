@@ -54,6 +54,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 - [Techopolis/AFM-Studio](https://github.com/Techopolis/AFM-Studio) — Chat app spanning Apple Foundation Models, Private Cloud Compute, and Core AI models behind one provider interface.
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
 - [massif-01/coreai-hybrid-state-runtime](https://github.com/massif-01/coreai-hybrid-state-runtime) — Device-validated four-state hybrid decoder support for Apple Core AI sequential runtime
+- [hechen/apple-platforms-27-skills](https://github.com/hechen/apple-platforms-27-skills) — Portable Agent Skills for iOS 27, iPadOS 27, macOS 27, and Xcode 27: SwiftUI migration, App Intents, Foundation Models, and Core AI. iPhone Duo skills live i...
 
 ## Models
 
@@ -66,6 +67,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 - [0Itsuki0/Swift_STTWithCoreAI](https://github.com/0Itsuki0/Swift_STTWithCoreAI) — A demo of using the CoreAI framework (OS 27+) for on-device Speech to text.
 - [james-333i/coreai-models-xcframework](https://github.com/james-333i/coreai-models-xcframework) — Build scripts for creating coreai-models xcframework to enable support for using it in projects requiring lower min SDK than coreai-models supports.
 - [RahulRachuri/bonsai-swift](https://github.com/RahulRachuri/bonsai-swift) — Bonsai 2 27B (PrismML ternary Qwen3.8) on Apple Core AI, in Swift
+- [RohanLala04/dult-tracker-detector](https://github.com/RohanLala04/dult-tracker-detector) — On-device BLE tracker detector implementing the Apple-Google DULT spec (IETF draft-ledvina-apple-google-unwanted-trackers-02) with Core AI on-device ML infer...
 
 ## Conversion
 
@@ -84,6 +86,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 - [ETeissonniere/coreai-agent](https://github.com/ETeissonniere/coreai-agent) — (no description)
 - [joaaosc/aguardente](https://github.com/joaaosc/aguardente) — Ferramenta CLI elegante e minimalista baseada no framework CoreAI para a converter e destilar automaticamente modelos PyTorch em nativo Apple Silicon. Recome...
 - [cadamcat/llms-on-apple-neural-engine](https://github.com/cadamcat/llms-on-apple-neural-engine) — Apple Neural Engine (ANE/NPU) vs GPU for local LLM inference on Apple Silicon / macOS. Core ML (CoreML), Core AI (CoreAI), MLX and Metal benchmarks: prefill,...
+- [Lourdhu02/achilles](https://github.com/Lourdhu02/achilles) — Core AI from first principles: 17 test-driven labs from autograd to FlashAttention in Triton, LoRA, DPO, GRPO, quantization and interpretability, plus a curr...
 
 ## Serving
 

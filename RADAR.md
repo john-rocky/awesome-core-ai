@@ -13,8 +13,9 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 |---|---|---|---|---|---|
 | [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. Replaces the... |
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
-| [RohanLala04/dult-tracker-detector](https://github.com/RohanLala04/dult-tracker-detector) | 0 | 2026-06-10 | strong | Models | On-device BLE tracker detector implementing the Apple-Google DULT spec (IETF draft-ledvina-apple-google-unwanted-trackers-02) with Core AI on-device ML infer... |
+| [Andrei-cloud/laya-plugin](https://github.com/Andrei-cloud/laya-plugin) | 0 | 2026-09-27 | strong | Running models in your app | Laya Decision Plugin — on-device Apple Core AI decision layer for coding agents (guardrail/routing/triage/mail/supervise over MCP). Model auto-pull from HF a... |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
+| [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 0 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
 | [audreyt/ds4-coreai](https://github.com/audreyt/ds4-coreai) | 0 | 2026-08-24 | strong | Conversion | DeepSeek V4 Flash inference on Apple Core AI with exact packed GGUF weights and custom Metal 4 kernels |
 | [caguilar-dev/moss-soundeffect-coreai](https://github.com/caguilar-dev/moss-soundeffect-coreai) | 0 | 2026-09-05 | strong | Models | Experimental Core AI port and native Swift runtime for MOSS SoundEffect v2 |
 | [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
@@ -24,5 +25,14 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
 | [maxffarrell/gtcrn-coreai](https://github.com/maxffarrell/gtcrn-coreai) | 0 | 2026-08-11 | strong | Models | Streaming GTCRN speech enhancement converted to Apple's Core AI format |
+| [maxffarrell/julia-coreai](https://github.com/maxffarrell/julia-coreai) | 0 | 2026-09-26 | strong | Conversion | Apple Core AI conversion of Supersonic Labs Julia-1 |
 | [nixology/coreai.nix](https://github.com/nixology/coreai.nix) | 0 | 2026-06-11 | strong | Conversion | CoreAI |
 | [tianxingjian-123/qibo-m4-heterogeneous-training](https://github.com/tianxingjian-123/qibo-m4-heterogeneous-training) | 0 | 2026-06-19 | strong | Models | Qibo (岐伯): M4 Heterogeneous Unified Training System — CPU+GPU+ANE all-core AI training on Apple Silicon. Features pre-compiled ANE program pool (5-6x speedup... |
+
+## Hugging Face
+
+| Model | Downloads | Likes |
+|---|---|---|
+| [richardr1126/Kokoro-82M-CoreAI](https://huggingface.co/richardr1126/Kokoro-82M-CoreAI) | 17 | 1 |
+| [coder543/cohere-transcribe-coreai](https://huggingface.co/coder543/cohere-transcribe-coreai) | 0 | 1 |
+| [smdesai/laya-multilingual-coreai](https://huggingface.co/smdesai/laya-multilingual-coreai) | 0 | 1 |
