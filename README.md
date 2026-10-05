@@ -55,6 +55,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 - [mweinbach/NemotronCoreAI](https://github.com/mweinbach/NemotronCoreAI) — SwiftPM streaming-ASR runtime for NVIDIA Nemotron 3.5 on Core AI.
 - [massif-01/coreai-hybrid-state-runtime](https://github.com/massif-01/coreai-hybrid-state-runtime) — Device-validated four-state hybrid decoder support for Apple Core AI sequential runtime
 - [hechen/apple-platforms-27-skills](https://github.com/hechen/apple-platforms-27-skills) — Portable Agent Skills for iOS 27, iPadOS 27, macOS 27, and Xcode 27: SwiftUI migration, App Intents, Foundation Models, and Core AI. iPhone Duo skills live i...
+- [Andrei-cloud/laya-plugin](https://github.com/Andrei-cloud/laya-plugin) — Laya Decision Plugin — on-device Apple Core AI decision layer for coding agents (guardrail/routing/triage/mail/supervise over MCP). Model auto-pull from HF a...
 
 ## Models
 
