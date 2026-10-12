@@ -11,8 +11,8 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Repo | ★ | Created | Signal | Guessed section | Description |
 |---|---|---|---|---|---|
+| [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 2 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
 | [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. Replaces the... |
-| [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 1 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
 | [ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-11-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-11-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
@@ -20,6 +20,8 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
 | [SoreGus/AppleCoreAI](https://github.com/SoreGus/AppleCoreAI) | 0 | 2026-09-29 | strong | Learning | (no description) |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
+| [arraypress/swift-concept-segmenter](https://github.com/arraypress/swift-concept-segmenter) | 0 | 2026-10-11 | strong | Running models in your app | Masks by name on Apple silicon: SAM 3 on Core AI — a word in, every instance's mask, box and score out |
+| [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 0 | 2026-10-11 | strong | Conversion | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
 | [audreyt/ds4-coreai](https://github.com/audreyt/ds4-coreai) | 0 | 2026-08-24 | strong | Conversion | DeepSeek V4 Flash inference on Apple Core AI with exact packed GGUF weights and custom Metal 4 kernels |
 | [caguilar-dev/moss-soundeffect-coreai](https://github.com/caguilar-dev/moss-soundeffect-coreai) | 0 | 2026-09-05 | strong | Models | Experimental Core AI port and native Swift runtime for MOSS SoundEffect v2 |
 | [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
@@ -28,19 +30,16 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
-| [maxffarrell/gtcrn-coreai](https://github.com/maxffarrell/gtcrn-coreai) | 0 | 2026-08-11 | strong | Models | Streaming GTCRN speech enhancement converted to Apple's Core AI format |
 | [maxffarrell/julia-1-coreai](https://github.com/maxffarrell/julia-1-coreai) | 0 | 2026-09-26 | strong | Conversion | Apple Core AI conversion of Supersonic Labs Julia-1 |
 | [nixology/coreai.nix](https://github.com/nixology/coreai.nix) | 0 | 2026-06-11 | strong | Conversion | CoreAI |
 | [prayush21/apple-ai-inference](https://github.com/prayush21/apple-ai-inference) | 0 | 2026-09-21 | strong | Models | Ports of the WWDC26 Core AI toolchain: snakeAI, SmolLM2, and a zero-shot System One decision model benchmarked against Jev and Laya |
 | [tianxingjian-123/qibo-m4-heterogeneous-training](https://github.com/tianxingjian-123/qibo-m4-heterogeneous-training) | 0 | 2026-06-19 | strong | Models | Qibo (岐伯): M4 Heterogeneous Unified Training System — CPU+GPU+ANE all-core AI training on Apple Silicon. Features pre-compiled ANE program pool (5-6x speedup... |
+| [vanshhc/argus](https://github.com/vanshhc/argus) | 0 | 2026-10-05 | strong | Conversion | Run open-source language models on iPhone with Apple Core AI. Each model port is checked against the original. |
 
 ## Hugging Face
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [masahiroid/japanese-reranker-small-v2-coreai](https://huggingface.co/masahiroid/japanese-reranker-small-v2-coreai) | 0 | 1 |
-| [masahiroid/japanese-reranker-xsmall-v2-coreai](https://huggingface.co/masahiroid/japanese-reranker-xsmall-v2-coreai) | 0 | 2 |
-| [masahiroid/ruri-v3-130m-coreai](https://huggingface.co/masahiroid/ruri-v3-130m-coreai) | 0 | 1 |
-| [masahiroid/ruri-v3-30m-coreai](https://huggingface.co/masahiroid/ruri-v3-30m-coreai) | 0 | 1 |
-| [masahiroid/ruri-v3-310m-coreai](https://huggingface.co/masahiroid/ruri-v3-310m-coreai) | 0 | 1 |
-| [smdesai/Nemotron-3-Diarization-CoreAI](https://huggingface.co/smdesai/Nemotron-3-Diarization-CoreAI) | 0 | 1 |
+| [anemll/anemll-quantized-qwen3.8-27b-for-CoreAI](https://huggingface.co/anemll/anemll-quantized-qwen3.8-27b-for-CoreAI) | 731 | 1 |
+| [Jup33QE/DA3-SMALL-CoreAI](https://huggingface.co/Jup33QE/DA3-SMALL-CoreAI) | 0 | 1 |
+| [dushandz/FLUX.2-klein-4B-CoreAI](https://huggingface.co/dushandz/FLUX.2-klein-4B-CoreAI) | 0 | 1 |
