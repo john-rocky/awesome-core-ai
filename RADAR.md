@@ -13,33 +13,73 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 |---|---|---|---|---|---|
 | [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 2 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
 | [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. Replaces the... |
+| [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 1 | 2026-10-11 | weak | Conversion | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
 | [ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-11-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-11-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-15-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-15-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
+| [AsukaShukla5871/coreai-kit](https://github.com/AsukaShukla5871/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [DeepaOrtiz050/coreai-kit](https://github.com/DeepaOrtiz050/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [Gul84571/coreai-kit](https://github.com/Gul84571/coreai-kit) | 0 | 2026-10-14 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [JungwooSingh/coreai-kit](https://github.com/JungwooSingh/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [Kevin12671/coreai-kit](https://github.com/Kevin12671/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [Lang4292/coreai-kit](https://github.com/Lang4292/coreai-kit) | 0 | 2026-10-15 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [Magdalena606/coreai-kit](https://github.com/Magdalena606/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [NarongHashimoto37/coreai-kit](https://github.com/NarongHashimoto37/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [RiyaFlores7647/coreai-kit](https://github.com/RiyaFlores7647/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [Ruiz945/coreai-kit](https://github.com/Ruiz945/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [SoreGus/AppleCoreAI](https://github.com/SoreGus/AppleCoreAI) | 0 | 2026-09-29 | strong | Learning | (no description) |
+| [ThaoVasiliou214/coreai-kit](https://github.com/ThaoVasiliou214/coreai-kit) | 0 | 2026-10-16 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [Tomoyar51/coreai-kit](https://github.com/Tomoyar51/coreai-kit) | 0 | 2026-10-16 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [Xavierhuang/CoreAI](https://github.com/Xavierhuang/CoreAI) | 0 | 2026-06-23 | strong | Benchmarks & engineering notes | (no description) |
+| [aPanagiotou604/coreai-kit](https://github.com/aPanagiotou604/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [ann0536/coreai-kit](https://github.com/ann0536/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [annikazielinski/coreai-kit](https://github.com/annikazielinski/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [arraypress/swift-concept-segmenter](https://github.com/arraypress/swift-concept-segmenter) | 0 | 2026-10-11 | strong | Running models in your app | Masks by name on Apple silicon: SAM 3 on Core AI — a word in, every instance's mask, box and score out |
-| [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 0 | 2026-10-11 | strong | Conversion | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
 | [audreyt/ds4-coreai](https://github.com/audreyt/ds4-coreai) | 0 | 2026-08-24 | strong | Conversion | DeepSeek V4 Flash inference on Apple Core AI with exact packed GGUF weights and custom Metal 4 kernels |
+| [bubstackdev/corsairs](https://github.com/bubstackdev/corsairs) | 0 | 2026-10-15 | strong | Running models in your app | Safe Rust inference using Apple Core AI on Apple Silicon |
 | [caguilar-dev/moss-soundeffect-coreai](https://github.com/caguilar-dev/moss-soundeffect-coreai) | 0 | 2026-09-05 | strong | Models | Experimental Core AI port and native Swift runtime for MOSS SoundEffect v2 |
 | [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
+| [emilydavis519/coreai-kit](https://github.com/emilydavis519/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [emregarnier84628/coreai-kit](https://github.com/emregarnier84628/coreai-kit) | 0 | 2026-10-16 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [evelynm11/coreai-kit](https://github.com/evelynm11/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [findit-studio/coreai](https://github.com/findit-studio/coreai) | 0 | 2026-09-19 | strong | Running models in your app | (no description) |
 | [hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills](https://github.com/hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills) | 0 | 2026-07-27 | strong | Learning | An independent, evidence-backed guide and research corpus for Apple's 2026 on-device AI stack: Foundation Models, Core AI, MLX, Evaluations, Speech, and Metal. |
+| [juliauchida/coreai-kit](https://github.com/juliauchida/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [jungwooraza20/coreai-kit](https://github.com/jungwooraza20/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [kacperk15058/coreai-kit](https://github.com/kacperk15058/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
+| [loriyoshida/coreai-kit](https://github.com/loriyoshida/coreai-kit) | 0 | 2026-10-16 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [maas41/coreai-kit](https://github.com/maas41/coreai-kit) | 0 | 2026-10-17 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [maxffarrell/julia-1-coreai](https://github.com/maxffarrell/julia-1-coreai) | 0 | 2026-09-26 | strong | Conversion | Apple Core AI conversion of Supersonic Labs Julia-1 |
-| [nixology/coreai.nix](https://github.com/nixology/coreai.nix) | 0 | 2026-06-11 | strong | Conversion | CoreAI |
+| [nathanm49/coreai-kit](https://github.com/nathanm49/coreai-kit) | 0 | 2026-10-14 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [prayush21/apple-ai-inference](https://github.com/prayush21/apple-ai-inference) | 0 | 2026-09-21 | strong | Models | Ports of the WWDC26 Core AI toolchain: snakeAI, SmolLM2, and a zero-shot System One decision model benchmarked against Jev and Laya |
-| [tianxingjian-123/qibo-m4-heterogeneous-training](https://github.com/tianxingjian-123/qibo-m4-heterogeneous-training) | 0 | 2026-06-19 | strong | Models | Qibo (岐伯): M4 Heterogeneous Unified Training System — CPU+GPU+ANE all-core AI training on Apple Silicon. Features pre-compiled ANE program pool (5-6x speedup... |
+| [rjang188/coreai-kit](https://github.com/rjang188/coreai-kit) | 0 | 2026-10-18 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
+| [sma5111/coreai-kit](https://github.com/sma5111/coreai-kit) | 0 | 2026-10-14 | strong | Conversion | Swift SDK for running chat, vision and speech models on iPhone and Mac with Apple's Core AI. Model download and caching, FoundationModels integration, and ru... |
 | [vanshhc/argus](https://github.com/vanshhc/argus) | 0 | 2026-10-05 | strong | Conversion | Run open-source language models on iPhone with Apple Core AI. Each model port is checked against the original. |
 
 ## Hugging Face
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [anemll/anemll-quantized-qwen3.8-27b-for-CoreAI](https://huggingface.co/anemll/anemll-quantized-qwen3.8-27b-for-CoreAI) | 731 | 1 |
-| [Jup33QE/DA3-SMALL-CoreAI](https://huggingface.co/Jup33QE/DA3-SMALL-CoreAI) | 0 | 1 |
-| [dushandz/FLUX.2-klein-4B-CoreAI](https://huggingface.co/dushandz/FLUX.2-klein-4B-CoreAI) | 0 | 1 |
+| [silv4souz4/sam2.1-hiera-small-coreai-w8](https://huggingface.co/silv4souz4/sam2.1-hiera-small-coreai-w8) | 46 | 1 |
+| [silv4souz4/sam2.1-hiera-base-plus-coreai-w8](https://huggingface.co/silv4souz4/sam2.1-hiera-base-plus-coreai-w8) | 45 | 1 |
+| [silv4souz4/sam2.1-hiera-large-coreai-w8](https://huggingface.co/silv4souz4/sam2.1-hiera-large-coreai-w8) | 45 | 1 |
+| [silv4souz4/sam2.1-hiera-tiny-coreai-w8](https://huggingface.co/silv4souz4/sam2.1-hiera-tiny-coreai-w8) | 45 | 1 |
+| [ahmedandaloes/d3-flash-CoreAI](https://huggingface.co/ahmedandaloes/d3-flash-CoreAI) | 33 | 1 |
+| [silv4souz4/florence-2-large-coreai-w8a16](https://huggingface.co/silv4souz4/florence-2-large-coreai-w8a16) | 23 | 1 |
+| [silv4souz4/qwen3-reranker-0.6b-coreai-w8a16](https://huggingface.co/silv4souz4/qwen3-reranker-0.6b-coreai-w8a16) | 22 | 1 |
+| [silv4souz4/mediapipe-iris-landmark-coreai-fp16](https://huggingface.co/silv4souz4/mediapipe-iris-landmark-coreai-fp16) | 20 | 1 |
+| [silv4souz4/mediapipe-face-landmarks-detector-coreai-fp16](https://huggingface.co/silv4souz4/mediapipe-face-landmarks-detector-coreai-fp16) | 17 | 1 |
+| [silv4souz4/mediapipe-pose-landmarker-full-coreai-fp16](https://huggingface.co/silv4souz4/mediapipe-pose-landmarker-full-coreai-fp16) | 16 | 1 |
+| [silv4souz4/qwen3-embedding-0.6b-coreai-w8a16](https://huggingface.co/silv4souz4/qwen3-embedding-0.6b-coreai-w8a16) | 15 | 1 |
+| [silv4souz4/big-lama-coreai-w8](https://huggingface.co/silv4souz4/big-lama-coreai-w8) | 14 | 2 |
+| [silv4souz4/mediapipe-selfie-multiclass-256x256-coreai-fp16](https://huggingface.co/silv4souz4/mediapipe-selfie-multiclass-256x256-coreai-fp16) | 14 | 2 |
+| [silv4souz4/realesrgan-x4plus-coreai-w8a16](https://huggingface.co/silv4souz4/realesrgan-x4plus-coreai-w8a16) | 14 | 1 |
+| [silv4souz4/rtmpose-m-wholebody-dwpose-coreai-fp16](https://huggingface.co/silv4souz4/rtmpose-m-wholebody-dwpose-coreai-fp16) | 14 | 1 |
+| [EverPaper/embeddinggemma-2-coreai](https://huggingface.co/EverPaper/embeddinggemma-2-coreai) | 0 | 16 |
+| [jbilcke/whisper-medical-large-coreai](https://huggingface.co/jbilcke/whisper-medical-large-coreai) | 0 | 1 |
+| [masahiroid/japanese-reranker-xsmall-v2-coreai](https://huggingface.co/masahiroid/japanese-reranker-xsmall-v2-coreai) | 0 | 3 |
