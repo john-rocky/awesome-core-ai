@@ -13,19 +13,17 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 |---|---|---|---|---|---|
 | [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 3 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
 | [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. Replaces the... |
-| [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 1 | 2026-10-11 | weak | Conversion | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
+| [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 1 | 2026-10-11 | weak | Benchmarks & engineering notes | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
 | [ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-11-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-11-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-15-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-15-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
 | [SoreGus/AppleCoreAI](https://github.com/SoreGus/AppleCoreAI) | 0 | 2026-09-29 | strong | Learning | (no description) |
-| [arraypress/swift-concept-segmenter](https://github.com/arraypress/swift-concept-segmenter) | 0 | 2026-10-11 | strong | Running models in your app | Masks by name on Apple silicon: SAM 3 on Core AI — a word in, every instance's mask, box and score out |
 | [audreyt/ds4-coreai](https://github.com/audreyt/ds4-coreai) | 0 | 2026-08-24 | strong | Conversion | DeepSeek V4 Flash inference on Apple Core AI with exact packed GGUF weights and custom Metal 4 kernels |
 | [bubstackdev/corsairs](https://github.com/bubstackdev/corsairs) | 0 | 2026-10-15 | strong | Running models in your app | Safe Rust inference using Apple Core AI on Apple Silicon |
 | [caguilar-dev/moss-soundeffect-coreai](https://github.com/caguilar-dev/moss-soundeffect-coreai) | 0 | 2026-09-05 | strong | Models | Experimental Core AI port and native Swift runtime for MOSS SoundEffect v2 |
 | [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
-| [findit-studio/coreai](https://github.com/findit-studio/coreai) | 0 | 2026-09-19 | strong | Running models in your app | (no description) |
 | [hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills](https://github.com/hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills) | 0 | 2026-07-27 | strong | Learning | An independent, evidence-backed guide and research corpus for Apple's 2026 on-device AI stack: Foundation Models, Core AI, MLX, Evaluations, Speech, and Metal. |
 | [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
 | [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
@@ -37,6 +35,5 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [wegotomars/d1-3B-CoreAI-ANE](https://huggingface.co/wegotomars/d1-3B-CoreAI-ANE) | 45 | 1 |
-| [smdesai/Nemotron-3.5-Embed-1B-CoreAI](https://huggingface.co/smdesai/Nemotron-3.5-Embed-1B-CoreAI) | 0 | 1 |
-| [smdesai/d1-3B-CoreAI](https://huggingface.co/smdesai/d1-3B-CoreAI) | 0 | 1 |
+| [ronbakker/chatterbox-nano-fp16-coreai](https://huggingface.co/ronbakker/chatterbox-nano-fp16-coreai) | 0 | 1 |
+| [ronbakker/chatterbox-nano-int4-int8-coreai](https://huggingface.co/ronbakker/chatterbox-nano-int4-int8-coreai) | 0 | 1 |

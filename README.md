@@ -90,6 +90,7 @@ Check Apple's system-provided models and task APIs first. A custom model is usef
 - [Lourdhu02/achilles](https://github.com/Lourdhu02/achilles) — Core AI from first principles: 17 test-driven labs from autograd to FlashAttention in Triton, LoRA, DPO, GRPO, quantization and interpretability, plus a curr...
 - [oka-yuji/coreai-samples](https://github.com/oka-yuji/coreai-samples) — Open LLMs on Apple silicon with Core AI and Foundation Models: Swift runtime, verification harness, sample app (work in progress)
 - [maxffarrell/julia-1-coreai](https://github.com/maxffarrell/julia-1-coreai) — Apple Core AI conversion of Supersonic Labs Julia-1
+- [intexcor/torch-ane](https://github.com/intexcor/torch-ane) — Run PyTorch models on the Apple Neural Engine via Core AI: compile any nn.Module, LLMs with KV cache, Stable Diffusion
 
 ## Serving
 
