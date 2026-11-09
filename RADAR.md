@@ -35,5 +35,5 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [ronbakker/chatterbox-nano-fp16-coreai](https://huggingface.co/ronbakker/chatterbox-nano-fp16-coreai) | 0 | 1 |
-| [ronbakker/chatterbox-nano-int4-int8-coreai](https://huggingface.co/ronbakker/chatterbox-nano-int4-int8-coreai) | 0 | 1 |
+| [silv4souz4/jev-9b-coreai-w8](https://huggingface.co/silv4souz4/jev-9b-coreai-w8) | 93 | 1 |
+| [massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p) | 0 | 2 |
