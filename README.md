@@ -69,6 +69,7 @@ I maintain this list. The links in this table are my own projects, and the secti
 - [tmorales2000/fastvlm-coreai](https://github.com/tmorales2000/fastvlm-coreai) — FastVLM vision-language model converted to Apple Core AI .aimodel format for Neural Engine deployment on iOS/macOS 27.
 - [RahulRachuri/bonsai-swift](https://github.com/RahulRachuri/bonsai-swift) — Bonsai 2 27B (PrismML ternary Qwen3.8) on Apple Core AI, in Swift.
 - [xocialize/coreai-realesrgan-swift](https://github.com/xocialize/coreai-realesrgan-swift) — Real-ESRGAN 4× super-resolution on the Apple Neural Engine via CoreAI — fp16, parity-locked, macOS 27+.
+- [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) — MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments
 
 ## Conversion
 
@@ -85,6 +86,7 @@ I maintain this list. The links in this table are my own projects, and the secti
 - [joaaosc/aguardente](https://github.com/joaaosc/aguardente) — CLI that converts and distills PyTorch models to run natively on Apple silicon through Core AI. At least 32 GB of RAM is recommended.
 - [maxffarrell/julia-1-coreai](https://github.com/maxffarrell/julia-1-coreai) — Apple Core AI conversion of Supersonic Labs Julia-1.
 - [intexcor/torch-ane](https://github.com/intexcor/torch-ane) — Run PyTorch models on the Apple Neural Engine via Core AI: compile any nn.Module, LLMs with KV cache, Stable Diffusion.
+- [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) — The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog
 
 ## Serving
 

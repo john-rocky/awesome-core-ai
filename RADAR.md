@@ -12,7 +12,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | Repo | ★ | Created | Signal | Guessed section | Description |
 |---|---|---|---|---|---|
 | [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 3 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
-| [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. Replaces the... |
+| [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. |
 | [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 1 | 2026-10-11 | weak | Benchmarks & engineering notes | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
 | [ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
@@ -25,15 +25,5 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [caguilar-dev/moss-soundeffect-coreai](https://github.com/caguilar-dev/moss-soundeffect-coreai) | 0 | 2026-09-05 | strong | Models | Experimental Core AI port and native Swift runtime for MOSS SoundEffect v2 |
 | [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
 | [hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills](https://github.com/hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills) | 0 | 2026-07-27 | strong | Learning | An independent, evidence-backed guide and research corpus for Apple's 2026 on-device AI stack: Foundation Models, Core AI, MLX, Evaluations, Speech, and Metal. |
-| [katlun-lgtm/mobileportrait-mlx](https://github.com/katlun-lgtm/mobileportrait-mlx) | 0 | 2026-06-09 | strong | Models | MobilePortrait ported to MLX for real-time face animation on Apple Silicon (M3 Max); incl. Core AI / ANE conversion experiments |
-| [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) | 0 | 2026-07-03 | strong | Conversion | The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
 | [prayush21/apple-ai-inference](https://github.com/prayush21/apple-ai-inference) | 0 | 2026-09-21 | strong | Models | Ports of the WWDC26 Core AI toolchain: snakeAI, SmolLM2, and a zero-shot System One decision model benchmarked against Jev and Laya |
-| [vanshhc/argus](https://github.com/vanshhc/argus) | 0 | 2026-10-05 | strong | Conversion | Run open-source language models on iPhone with Apple Core AI. Each model port is checked against the original. |
-
-## Hugging Face
-
-| Model | Downloads | Likes |
-|---|---|---|
-| [silv4souz4/jev-9b-coreai-w8](https://huggingface.co/silv4souz4/jev-9b-coreai-w8) | 93 | 1 |
-| [massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p) | 0 | 2 |
