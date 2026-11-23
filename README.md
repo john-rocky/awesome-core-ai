@@ -87,6 +87,7 @@ I maintain this list. The links in this table are my own projects, and the secti
 - [maxffarrell/julia-1-coreai](https://github.com/maxffarrell/julia-1-coreai) — Apple Core AI conversion of Supersonic Labs Julia-1.
 - [intexcor/torch-ane](https://github.com/intexcor/torch-ane) — Run PyTorch models on the Apple Neural Engine via Core AI: compile any nn.Module, LLMs with KV cache, Stable Diffusion.
 - [kevinqz/coreai-fabric](https://github.com/kevinqz/coreai-fabric) — The conversion fabric for Apple Core AI — agent-first pipeline turning upstream models into provenance-verified .aimodel artifacts, indexed by coreai-catalog
+- [gwenn-ha-dev/Siliconed](https://github.com/gwenn-ha-dev/Siliconed) — Local image generation and editing on Apple silicon, built on Core AI.
 
 ## Serving
 

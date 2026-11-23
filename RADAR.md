@@ -12,7 +12,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | Repo | ★ | Created | Signal | Guessed section | Description |
 |---|---|---|---|---|---|
 | [arraypress/swift-music-transcriber](https://github.com/arraypress/swift-music-transcriber) | 3 | 2026-09-22 | weak | Running models in your app | Multi-instrument music transcription for Swift: MuScriptor on Apple's Core AI, audio in, one MIDI track per instrument out |
-| [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 2 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. |
+| [objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake](https://github.com/objevovat/fairplay-sap-core-airplay2-sender-authentication-handshake) | 3 | 2026-08-03 | weak | Learning | Apple FairPlay SAP authentication handshake for AirPlay 2 senders, reimplemented from scratch in 6 languages — Go, C, Rust, C#, Kotlin, Python. |
 | [arraypress/swift-image-generation](https://github.com/arraypress/swift-image-generation) | 1 | 2026-10-11 | weak | Benchmarks & engineering notes | Pictures from words — and edits of pictures — on this machine: FLUX.2 Klein 4B and SANA Sprint 1.6B on Apple Core AI |
 | [ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-03-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-07-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
@@ -20,10 +20,19 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [ehsanhafij-hub/core-ai-15-apple-swift-cross-platform-bridge](https://github.com/ehsanhafij-hub/core-ai-15-apple-swift-cross-platform-bridge) | 1 | 2026-09-29 | weak | ? | (no description) |
 | [2330172-arch/coreai](https://github.com/2330172-arch/coreai) | 0 | 2026-06-03 | weak | Running models in your app | coreai |
 | [SoreGus/AppleCoreAI](https://github.com/SoreGus/AppleCoreAI) | 0 | 2026-09-29 | strong | Learning | (no description) |
-| [audreyt/ds4-coreai](https://github.com/audreyt/ds4-coreai) | 0 | 2026-08-24 | strong | Conversion | DeepSeek V4 Flash inference on Apple Core AI with exact packed GGUF weights and custom Metal 4 kernels |
+| [ben0112/coreai-runner](https://github.com/ben0112/coreai-runner) | 0 | 2026-11-22 | strong | Benchmarks & engineering notes | SwiftUI + Core AI NPU model runner for Apple Silicon (M5 Max first) |
 | [bubstackdev/corsairs](https://github.com/bubstackdev/corsairs) | 0 | 2026-10-15 | strong | Running models in your app | Safe Rust inference using Apple Core AI on Apple Silicon |
 | [caguilar-dev/moss-soundeffect-coreai](https://github.com/caguilar-dev/moss-soundeffect-coreai) | 0 | 2026-09-05 | strong | Models | Experimental Core AI port and native Swift runtime for MOSS SoundEffect v2 |
-| [cmedipally7/iOSCoreMLPOC](https://github.com/cmedipally7/iOSCoreMLPOC) | 0 | 2026-08-22 | strong | Conversion | Run open-source LLMs on iPhone using Apple's Core AI framework. No cloud, no API keys. |
 | [hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills](https://github.com/hbmartin/Foundation-Models-and-Core-AI-and-MLX-skills) | 0 | 2026-07-27 | strong | Learning | An independent, evidence-backed guide and research corpus for Apple's 2026 on-device AI stack: Foundation Models, Core AI, MLX, Evaluations, Speech, and Metal. |
 | [laclouis5/rfdetr-coreai](https://github.com/laclouis5/rfdetr-coreai) | 0 | 2026-06-17 | strong | Conversion | Convert RF-DETR (Roboflow) object detectors to Core AI .aimodel assets for macOS/iOS. |
 | [prayush21/apple-ai-inference](https://github.com/prayush21/apple-ai-inference) | 0 | 2026-09-21 | strong | Models | Ports of the WWDC26 Core AI toolchain: snakeAI, SmolLM2, and a zero-shot System One decision model benchmarked against Jev and Laya |
+
+## Hugging Face
+
+| Model | Downloads | Likes |
+|---|---|---|
+| [silv4souz4/embeddinggemma-2-coreai-w8a16](https://huggingface.co/silv4souz4/embeddinggemma-2-coreai-w8a16) | 12 | 1 |
+| [ivanfioravanti/d1-2B-gestures-CoreAI](https://huggingface.co/ivanfioravanti/d1-2B-gestures-CoreAI) | 0 | 1 |
+| [jbilcke/timestral-coreai](https://huggingface.co/jbilcke/timestral-coreai) | 0 | 1 |
+| [smdesai/GLiNER25-Multi-FP16-CoreAI](https://huggingface.co/smdesai/GLiNER25-Multi-FP16-CoreAI) | 0 | 1 |
+| [tayarndt/Mage-VL-Cowork-CoreAI](https://huggingface.co/tayarndt/Mage-VL-Cowork-CoreAI) | 0 | 1 |
